@@ -31,7 +31,7 @@ public class Videojuegos_10am {
         IJugadoresDAO jugadoresDAO = DAOSFactory.crearJugadoresDAO();
         Jugador jugador = new Jugador("juan", 32, new GregorianCalendar(), Sexo.FEMENINO);
         jugadoresDAO.agregar(jugador);
-        
+        String prueba;
         System.out.println(jugadoresDAO.consultarTodos());
     }
     
