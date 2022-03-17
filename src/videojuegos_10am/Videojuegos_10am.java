@@ -32,6 +32,7 @@ public class Videojuegos_10am {
         Jugador jugador = new Jugador("juan", 32, new GregorianCalendar(), Sexo.FEMENINO);
         jugadoresDAO.agregar(jugador);
         String prueba;
+        int prueba2;
         System.out.println(jugadoresDAO.consultarTodos());
     }
     
